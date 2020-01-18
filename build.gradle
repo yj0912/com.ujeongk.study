@@ -28,5 +28,6 @@ repositories { //어떤 원격 저장소에서 받을지 지정
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
